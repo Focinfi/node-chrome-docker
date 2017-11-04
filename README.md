@@ -17,9 +17,10 @@ From focinfi/node-chrome:latest
 1. Set environment `PUPPETEER_SKIP_CHROMIUM_DOWNLOAD` to be `true` to skip download chromium when install puppeteer.
 
 2. Example for launching a browser:
-```javascript
-puppeteer.launch(
-{
+```js
+  const puppeteer = require('puppeteer');
+  (async () => {
+    await browser = puppeteer.launch({
       launchOption.executablePath = 'google-chrome',
       args: [
         '--headless',
@@ -30,6 +31,6 @@ puppeteer.launch(
         '--no-sandbox',
         '--disable-setuid-sandbox'
       ]
-    }
-)
+    });
+  });
 ```
