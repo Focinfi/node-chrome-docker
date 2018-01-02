@@ -1,8 +1,8 @@
-Docker ready for using [puppeteer](https://github.com/GoogleChrome/puppeteer)@0.12.0
+Docker ready for using [puppeteer](https://github.com/GoogleChrome/puppeteer)@0.13.0
 
 ### Softwares
 
-1. Chrome@64
+1. Chrome-unstable
 2. Node@8.4
 3. Yarn@1.2.1
 
